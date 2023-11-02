@@ -24,14 +24,19 @@
 </script>
 
 <div>
-	<h4>Notes</h4>
+	<h2>Notes</h2>
+	<p>
+		I invest a significant portion of my time in staying updated on the latest trends in Software
+		Engineering, and have developed a workflow to summarize articles and posts. I'm excited to share
+		some of my favorite findings with you:
+	</p>
 	<ul>
 		{#each notes as note}
 			<li>
 				<a href={note.href} target="_blank">
 					<span class="title">{note.title}</span>
 					<!-- <p>{note.desc}</p> -->
-					<span>#{note.tags}</span>
+					<span class="tags">#{note.tags}</span>
 				</a>
 			</li>
 		{/each}
@@ -40,8 +45,8 @@
 
 <style>
 	ul {
-		display: grid;
-		grid-template-columns: repeat(3, 1fr);
+		display: flex;
+		flex-direction: column;
 		gap: 1rem;
 		margin-top: 1rem;
 	}
@@ -51,26 +56,31 @@
 	}
 
 	a {
+		background-color: var(--color-primary-700);
 		display: flex;
 		gap: 0.25rem;
 		flex-direction: column;
 		cursor: pointer;
 		padding: 1rem;
-		border: 1px solid var(--color-primary);
+		border: 1px solid var(--color-primary-600);
 		text-decoration: none;
-		border-radius: 1rem;
+		border-radius: var(--border-radius);
 		color: var(--color-text-1);
 	}
 
 	a:hover {
-		border: 1px solid var(--color-secondary);
+		border: 1px solid var(--color-primary-600);
 	}
 
 	.title {
 		text-overflow: ellipsis;
 		overflow-x: hidden;
 		white-space: nowrap;
-		width: 12rem;
-		color: var(--color-text-0);
+		color: var(--color-text);
+		font-weight: bold;
+	}
+
+	.tags {
+		color: var(--color-primary-200);
 	}
 </style>

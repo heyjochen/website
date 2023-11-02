@@ -2,10 +2,11 @@
 </script>
 
 <header>
-	<p>Hey, I'm Jochen.</p>
+	<h1>hey, I'm Jochen 👋🏼</h1>
 	<p>
-		I'm a Software Engineer working at nvisia, where my team helps building state-of-the-art IoT
-		applications.
+		I'm a passionate Software Engineer, tinkerer, and pizza nerd. I work at nvisia, where I build
+		cutting-edge IoT applications. I grew up in a tiny town in Germany,had the privilege of working
+		on three different continents and for now settled in Chicago, IL.
 	</p>
 </header>
 

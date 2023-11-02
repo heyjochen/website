@@ -19,7 +19,7 @@
 </script>
 
 <div>
-	<h4>Contact</h4>
+	<h2>Contact</h2>
 	<div class="links">
 		{#each links as link}
 			<a href={link.href}>{link.name}</a>

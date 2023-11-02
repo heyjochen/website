@@ -8,56 +8,62 @@
 					name: 'Software Engineer',
 					start: 'Nov 2023',
 					end: 'present',
-					task: [
-						'Developed IoT platform, seamlessly integrating 24/7 monitoring and real-time alerts to empower customers in maximizing their operational uptime.',
-						'Reach out to and work with stakeholders to enhance UI/UX by leveraging robust design expertise'
-					]
+					task: 'My team and I take immense pride in our work, specializing in the development of an IoT platform that seamlessly integrates 24/7 monitoring and real-time alerts, thereby empowering our customers to optimize their operational uptime. In my role, I play an integral part in enhancing the UI/UX, making the most of my robust design expertise as we constantly push further.'
 				},
 				{
 					name: 'Software Developer',
 					start: 'Oct 2022',
 					end: 'Nov 2023',
-					task: [
-						'Feature development in Vue.js, AngularJS, TypeScript',
-						"Identified and solved issue with AngularJS's i18n solution by building internal tool to automate a manual process which improved developer experience, saving cost and effort"
-					]
+					task: "I contributed to feature development in Vue.js, AngularJS, and TypeScript, while also making a significant impact by identifying and resolving a critical issue with AngularJS's i18n solution. I designed and implemented an internal tool that automated a previously manual process, enhancing the developer experience and delivering cost and effort savings."
 				}
 			]
 		},
 		{
 			name: '100Devs',
 			location: 'Remote',
-			position: [{ name: 'Software Engineer', start: 'Jan 2022', end: 'Oct 2022', task: [''] }]
+			position: [
+				{
+					name: 'Software Engineer',
+					start: 'Jan 2022',
+					end: 'Oct 2022',
+					task: 'I developed applications for small local businesses and collaborated with designers, offering valuable tradeoff suggestions when necessary. This included code maintenance in accordance with the latest coding practices and industry standards. Additionally, I contributed to maintaining consistency by documenting components in the style guide, ensuring a development process tailored to our specific clientele.'
+				}
+			]
 		},
 		{
 			name: 'The Field Museum',
 			location: 'Chicago, IL',
-			position: [{ name: 'Studio Manager', start: 'Jun 2021', end: 'Jan 2022', task: [] }]
+			position: [
+				{
+					name: 'Studio Manager',
+					start: 'Jun 2021',
+					end: 'Jan 2022',
+					task: 'I created high-magnification photographs and 3D models, enhanced fossil preparation and specimen research. Additionally, I developed marketing assets and implented strategies across various media channels.'
+				}
+			]
 		}
 	];
 </script>
 
 <div>
-	<h4>Experience</h4>
+	<h2>Experience</h2>
 	<ul>
 		{#each work as employer}
 			<li class="employer">
-				<h5>
+				<h3>
 					{employer.name}
-				</h5>
+				</h3>
 				<ul>
 					{#each employer.position as position}
 						<li class="position">
 							<div class="title-container">
-								<h6 class="position-name">
+								<h4 class="position-name">
 									{position.name} • {employer.location}
-								</h6>
+								</h4>
 								<span class="position-date">{position.start} - {position.end}</span>
 							</div>
 							<ul class="task-list">
-								{#each position.task as task}
-									<li class="task">{task}</li>
-								{/each}
+								<li class="task">{position.task}</li>
 							</ul>
 						</li>
 					{/each}
