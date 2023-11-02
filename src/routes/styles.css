@@ -4,17 +4,22 @@
 	--font-body: Arial, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
 		Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	--font-mono: 'Lato', sans-serif;
-	--color-bg: #1B1C26;
-  --color-text: #EDF2F4;
-  --color-primary: #F9F7F7;
-  --color-primary-100: #E9E2E2;
-  --color-primary-200: #DACECE;
-  --color-primary-300: #CBBABA;
-	--color-secondary: #AB2324;
+	--color-bg: #151514;
+	--color-text: #d7d7d6;
+  --color-primary: #c2c2c1;
+  --color-primary-100: #a4a4a2;
+  --color-primary-200: #90908e;
+  --color-primary-300: #7c7c79;
+  --color-primary-400: #676765;
+  --color-primary-500: #676765;
+  --color-primary-600: #3e3e3d;
+  --color-primary-700: #242423;
+	--color-accent: #AB2324;
 	--column-width: 42rem;
 	--column-margin-top: 4rem;
+  --border-radius: .5rem;
 	font-family: var(--font-body);
-	color: var(--color-primary);
+	color: var(--color-text);
 }
 
 body {
@@ -41,23 +46,24 @@ h6 {
 }
 
 h1 {
-	font-size: 2.35em;
+	font-size: 2em;
+  margin-bottom: 3rem;
 }
 h2 {
-	font-size: 2em;
+	font-size: 1.5em;
 }
 h3 {
-	font-size: 1.75em;
+	font-size: 1.3em;
 }
 h4 {
-	font-size: 1.5em;
+	font-size: 1em;
   margin-bottom: 2rem;
 }
 h5 {
-	font-size: 1.25em;
+	font-size: .8em;
 }
 h6 {
-	font-size: 1em;
+	font-size: .7em;
 }
 
 p {
