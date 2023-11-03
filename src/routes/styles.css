@@ -1,9 +1,9 @@
-@import '@fontsource/lato';
+@import '@fontsource-variable/inter';
 
 :root {
 	--font-body: Arial, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
 		Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-	--font-mono: 'Lato', sans-serif;
+	--font-mono: 'Inter Variable', sans-serif;
 	--color-bg: #151514;
 	--color-text: #d7d7d6;
   --color-primary: #c2c2c1;
@@ -18,7 +18,7 @@
 	--column-width: 42rem;
 	--column-margin-top: 4rem;
   --border-radius: .5rem;
-	font-family: var(--font-body);
+	font-family: var(--font-mono);
 	color: var(--color-text);
 }
 
@@ -46,28 +46,28 @@ h6 {
 }
 
 h1 {
-	font-size: 2em;
-  margin-bottom: 3rem;
+	font-size: 1.75rem;
 }
 h2 {
-	font-size: 1.5em;
+	font-size: 1.5rem;
 }
 h3 {
-	font-size: 1.3em;
+	font-size: 1.25rem;
 }
 h4 {
-	font-size: 1em;
+	font-size: 1rem;
   margin-bottom: 2rem;
 }
 h5 {
-	font-size: .8em;
+	font-size: 0.85rem;
 }
 h6 {
-	font-size: .7em;
+	font-size: 0.75rem;
 }
 
 p {
 	line-height: 1.5;
+  color: var(--color-primary-100);
 }
 
 a {
