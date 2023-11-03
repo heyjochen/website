@@ -8,13 +8,13 @@
 					name: 'Software Engineer',
 					start: 'Nov 2023',
 					end: 'present',
-					task: 'My team specializes in the development of an IoT platform that seamlessly integrates 24/7 monitoring and real-time alerts, thereby empowering our customers to optimize their operational uptime. In my role, I play an integral part in enhancing the UI/UX, making the most of my robust design expertise as we constantly push further.'
+					task: 'My team develops an IoT platform that integrates 24/7 monitoring and real-time alerts, empowering our customers to optimize their operational uptime. I apply software engineering best practices to make sure our product performs well while creating accessible and user-friendly interfaces.'
 				},
 				{
 					name: 'Software Developer',
 					start: 'Oct 2022',
 					end: 'Nov 2023',
-					task: "I contributed to feature development in Vue.js, AngularJS, and TypeScript, while also making a significant impact by identifying and resolving a critical issue with AngularJS's i18n solution. I designed and implemented an internal tool that automated a previously manual process, enhancing the developer experience and delivering cost and effort savings."
+					task: "I contributed to feature development in Vue.js, AngularJS, and TypeScript, made an impact by identifying and resolving an issue with AngularJS's internationalization solution. I designed and implemented an internal tool that automated a previously manual process, enhancing the developer experience and delivering cost and effort savings."
 				}
 			]
 		},
@@ -26,7 +26,7 @@
 					name: 'Software Engineer',
 					start: 'Jan 2022',
 					end: 'Oct 2022',
-					task: 'I developed applications for small local businesses and collaborated with designers, offering valuable tradeoff suggestions when necessary. This included code maintenance in accordance with the latest coding practices and industry standards. Additionally, I contributed to maintaining consistency by documenting components in the style guide, ensuring a development process tailored to our specific clientele.'
+					task: 'I developed applications for small local businesses and collaborated with designers, offering valuable tradeoff suggestions when necessary. Additionally, I contributed to maintaining consistency by documenting components in the style guide, ensuring a development process tailored to our specific clientele.'
 				}
 			]
 		},
@@ -38,7 +38,7 @@
 					name: 'Studio Manager',
 					start: 'Jun 2021',
 					end: 'Jan 2022',
-					task: 'I created high-magnification photographs and 3D models, enhanced fossil preparation and specimen research. Additionally, I developed marketing assets and implented strategies across various media channels.'
+					task: 'I created high-magnification photographs and 3D models, enhanced fossil preparation as well as specimen research and developed marketing assets across various media channels.'
 				}
 			]
 		}
@@ -104,9 +104,9 @@
 		color: var(--color-primary-100);
 	}
 
-	.task-list {
-		padding-left: 0.5rem;
-	}
+	/* .task-list { */
+	/* 	padding-left: 0.5rem; */
+	/* } */
 
 	.task {
 		list-style-type: none;
