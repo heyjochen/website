@@ -22,7 +22,7 @@
 	<h2>Contact</h2>
 	<div class="links">
 		{#each links as link}
-			<a href={link.href}>{link.name}</a>
+			<a href={link.href} target="_blank">{link.name}</a>
 		{/each}
 	</div>
 </div>
