@@ -8,7 +8,7 @@
 					name: 'Software Engineer',
 					start: 'Nov 2023',
 					end: 'present',
-					task: 'My team and I take immense pride in our work, specializing in the development of an IoT platform that seamlessly integrates 24/7 monitoring and real-time alerts, thereby empowering our customers to optimize their operational uptime. In my role, I play an integral part in enhancing the UI/UX, making the most of my robust design expertise as we constantly push further.'
+					task: 'My team specializes in the development of an IoT platform that seamlessly integrates 24/7 monitoring and real-time alerts, thereby empowering our customers to optimize their operational uptime. In my role, I play an integral part in enhancing the UI/UX, making the most of my robust design expertise as we constantly push further.'
 				},
 				{
 					name: 'Software Developer',
@@ -96,22 +96,23 @@
 
 	.position-name {
 		margin: 0;
+		color: var(--color-primary);
 	}
 
 	.position-date {
 		align-self: flex-end;
-		color: var(--color-primary-200);
+		color: var(--color-primary-100);
 	}
 
 	.task-list {
-		padding-left: 1rem;
+		padding-left: 0.5rem;
 	}
 
 	.task {
-		list-style-type: circle;
+		list-style-type: none;
+		padding: 0;
 		line-height: 1.25;
-		padding-left: 0.5rem;
 		margin: 0.25rem 0;
-		color: var(--color-primary-200);
+		color: var(--color-primary-100);
 	}
 </style>
