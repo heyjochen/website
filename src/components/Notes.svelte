@@ -24,7 +24,7 @@
 </script>
 
 <div>
-	<h2 id="notes">Notes</h2>
+	<h2>Notes</h2>
 	<p>
 		I invest a significant portion of my time in staying updated on the latest trends in Software
 		Engineering, and have developed a workflow to summarize articles and posts. I'm excited to share
