@@ -19,7 +19,7 @@
 </script>
 
 <div>
-	<h2 id="contact">Contact</h2>
+	<h2>Contact</h2>
 	<div class="links">
 		{#each links as link}
 			{#if link.name !== 'Email'}
