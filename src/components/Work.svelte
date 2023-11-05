@@ -14,7 +14,7 @@
 					name: 'Software Developer',
 					start: 'Oct 2022',
 					end: 'Nov 2023',
-					task: "I contributed to feature development in Vue.js, AngularJS, and TypeScript, made an impact by identifying and resolving an issue with AngularJS's internationalization solution. I designed and implemented an internal tool that automated a previously manual process, enhancing the developer experience and delivering cost and effort savings."
+					task: 'Made significant  impact by identifying and resolving an issue with our internationalization solution. I designed and implemented an internal tool that automated a previously manual process, enhancing the developer experience and delivering cost and effort savings.'
 				}
 			]
 		},
