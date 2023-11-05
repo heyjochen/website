@@ -20,7 +20,7 @@
 	<!-- 		{/each} -->
 	<!-- 	</ul> -->
 	<!-- </nav> -->
-	<h1>hey, I'm Jochen</h1>
+	<h1>hey, I'm Jochen.</h1>
 	<p>
 		I'm a Software Engineer at nvisia, where I build cutting-edge IoT applications.<br /> I grew up in
 		a tiny town in Germany, had the privilege of working on three different continents and for now settled
@@ -60,22 +60,23 @@
 	h1::before {
 		content: '';
 		position: absolute;
-		top: 0;
+		top: -25px;
 		left: 0;
 		right: 0;
 		width: 100%;
-		height: 600px;
+		height: 700px;
 		background-position: top;
 		background-size: cover;
 		background-image: radial-gradient(
-			78.57% 78.57% at 50.65% 0.84%,
+			78.57% 78.57% at 55.65% 0.84%,
 			#e9d5ff 0,
-			#444 0,
+			#c6d8af 0,
 			rgba(15, 23, 42, 0) 100%
 		);
-		opacity: 0.5;
+		opacity: 0.1;
 		z-index: -1;
 		border-radius: inherit;
+		filter: blur(10px);
 	}
 
 	p {
