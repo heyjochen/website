@@ -96,12 +96,12 @@
 
 	.position-name {
 		margin: 0;
-		color: var(--color-primary);
+		color: var(--color-primary-100);
 	}
 
 	.position-date {
 		align-self: flex-end;
-		color: var(--color-primary-100);
+		color: var(--color-primary-200);
 	}
 
 	/* .task-list { */
@@ -113,6 +113,6 @@
 		padding: 0;
 		line-height: 1.25;
 		margin: 0.25rem 0;
-		color: var(--color-primary-100);
+		color: var(--color-primary-300);
 	}
 </style>
