@@ -79,6 +79,8 @@
 
 	a:hover {
 		border: 1px solid var(--color-primary-600);
+		background-color: var(--color-primary-700);
+		filter: brightness(1.1);
 	}
 
 	.title-container {
