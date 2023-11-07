@@ -71,15 +71,14 @@
 		align-items: center;
 		cursor: pointer;
 		padding: 1rem;
-		border: 1px solid var(--color-primary-600);
+		border: 1px solid var(--color-border);
 		text-decoration: none;
 		border-radius: var(--border-radius);
 		color: var(--color-text-1);
 	}
 
 	a:hover {
-		border: 1px solid var(--color-primary-600);
-		background-color: var(--color-primary-700);
+		border: 1px solid var(--color-border-100);
 		filter: brightness(1.1);
 	}
 
