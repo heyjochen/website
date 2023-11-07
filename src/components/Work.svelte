@@ -4,17 +4,17 @@
 			name: 'nvisia',
 			location: 'Chicago, IL',
 			position: [
-				{
-					name: 'Software Engineer',
-					start: 'Nov 2023',
-					end: 'present',
-					task: 'My team develops an IoT platform that integrates 24/7 monitoring and real-time alerts, empowering our customers to optimize their operational uptime. I apply software engineering best practices to make sure our product performs well while creating accessible and user-friendly interfaces.'
-				},
+				// {
+				// 	name: 'Software Engineer',
+				// 	start: 'Nov 2023',
+				// 	end: 'present',
+				// 	task: 'My team develops an IoT platform that integrates 24/7 monitoring and real-time alerts, empowering our customers to optimize their operational uptime.'
+				// },
 				{
 					name: 'Software Developer',
 					start: 'Oct 2022',
 					end: 'Nov 2023',
-					task: 'Made significant  impact by identifying and resolving an issue with our internationalization solution. I designed and implemented an internal tool that automated a previously manual process, enhancing the developer experience and delivering cost and effort savings.'
+					task: 'I designed and implemented an internal tool that automated a tedious manual process, enhancing the developer experience and delivering cost and effort savings.'
 				}
 			]
 		},
@@ -26,7 +26,7 @@
 					name: 'Software Engineer',
 					start: 'Jan 2022',
 					end: 'Oct 2022',
-					task: 'I developed applications for small local businesses and collaborated with designers, offering valuable tradeoff suggestions when necessary. Additionally, I contributed to maintaining consistency by documenting components in the style guide, ensuring a development process tailored to our specific clientele.'
+					task: 'I developed applications for small local businesses, collaborated with designers and offered valuable tradeoff suggestions to business stakeholders when necessary.'
 				}
 			]
 		},
@@ -101,7 +101,7 @@
 
 	.position-date {
 		align-self: flex-end;
-		color: var(--color-primary-200);
+		color: var(--color-primary-100);
 	}
 
 	/* .task-list { */
