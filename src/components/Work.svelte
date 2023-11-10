@@ -4,12 +4,12 @@
 			name: 'nvisia',
 			location: 'Chicago, IL',
 			position: [
-				// {
-				// 	name: 'Software Engineer',
-				// 	start: 'Nov 2023',
-				// 	end: 'present',
-				// 	task: 'My team develops an IoT platform that integrates 24/7 monitoring and real-time alerts, empowering our customers to optimize their operational uptime.'
-				// },
+				{
+					name: 'Software Engineer',
+					start: 'Nov 2023',
+					end: 'present',
+					task: 'My team develops an IoT platform that integrates 24/7 monitoring and real-time alerts, empowering our customers to optimize their operational uptime. Expertise in TypeScript/JavaScript, and can navigate different languages and technology stacks.'
+				},
 				{
 					name: 'Software Developer',
 					start: 'Oct 2022',
