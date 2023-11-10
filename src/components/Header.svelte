@@ -21,11 +21,15 @@
 	<!-- 	</ul> -->
 	<!-- </nav> -->
 	<h1>hey, I'm Jochen.</h1>
-	<!-- FIX: this -->
+	<!-- FIX: this change position -->
 	<p>
-		I'm a Software Developer at nvisia, where I build cutting-edge IoT applications.<br /> I grew up
-		in a tiny town in Germany, had the privilege of working on three different continents and for now
-		settled in Chicago, IL.
+		I'm a Software Developer at nvisia, where I build cutting-edge IoT applications.<br />
+		I deeply care about the quality & performance of the products shipped and take a thoughtful, practical
+		approach to problem-solving that considers tradeoffs and avoids over-engineering<br />
+	</p>
+	<p>
+		I had the privilege of working on three different continents.<br /> I love pizza, tinkering with
+		recipes and shooting large-format photographs on film.
 	</p>
 </header>
 
@@ -68,16 +72,16 @@
 		height: 800px;
 		background-position: top;
 		background-size: cover;
-		background-image: radial-gradient(
-			78.57% 78.57% at 55.65% 0.84%,
-			#a0aaba 0,
-			#4d586a 0,
-			rgba(15, 23, 42, 0) 100%
-		);
-		opacity: 0.15;
+		/* background-image: radial-gradient( */
+		/* 	78.57% 78.57% at 55.65% 0.84%, */
+		/* 	#a0aaba 0, */
+		/* 	#4d586a 0, */
+		/* 	rgba(15, 23, 42, 0) 100% */
+		/* ); */
+		opacity: 0.1;
 		z-index: -1;
 		border-radius: inherit;
-		filter: blur(10px);
+		filter: blur(110px);
 	}
 
 	p {
