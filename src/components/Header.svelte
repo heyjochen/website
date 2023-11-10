@@ -21,9 +21,8 @@
 	<!-- 	</ul> -->
 	<!-- </nav> -->
 	<h1>hey, I'm Jochen.</h1>
-	<!-- FIX: this change position -->
 	<p>
-		I'm a Software Developer at nvisia, where I build cutting-edge IoT applications.<br />
+		I'm a Software Engineer at nvisia, where I build cutting-edge IoT applications.<br />
 		I deeply care about the quality & performance of the products shipped and take a thoughtful, practical
 		approach to problem-solving that considers tradeoffs and avoids over-engineering<br />
 	</p>
