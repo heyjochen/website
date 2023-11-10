@@ -1,31 +1,31 @@
 <script lang="ts">
 	let notes = {
-		books: {
+		Books: {
 			active: true,
 			entries: [
 				{
 					title: 'On Writing well',
-					tags: ['book'],
+					tags: ['improvement'],
 					href: 'https://notes.stierberger.com/20-29-software-engineering/20-personal-development/20-01-books/on-writing-well/'
 				}
 			]
 		},
-		blog: {
+		Blogs: {
 			active: false,
 			entries: [
 				{
 					title: 'How to become a better Software Engineer',
-					tags: ['blog'],
+					tags: ['improvement'],
 					href: 'https://notes.stierberger.com/20-29-software-engineering/20-personal-development/20-02-blogs/how-to-become-a-better-software-engineer/'
 				},
 				{
 					title: 'Large Technical Projects',
-					tags: ['blog'],
+					tags: ['best_practices'],
 					href: 'https://notes.stierberger.com/20-29-software-engineering/20-personal-development/20-02-blogs/large-technical-projects/'
 				},
 				{
 					title: 'Culture of Excellence',
-					tags: ['blog'],
+					tags: ['best_practices'],
 					href: 'https://notes.stierberger.com/20-29-software-engineering/20-personal-development/20-02-blogs/culture-of-excellence/'
 				}
 			]
@@ -35,11 +35,16 @@
 	function switchTab(tabKey: string) {
 		const updatedNotes = { ...notes };
 
-		// Update the active property for the clicked tab
-		updatedNotes[tabKey as keyof typeof notes] = {
-			...updatedNotes[tabKey as keyof typeof notes],
-			active: !updatedNotes[tabKey as keyof typeof notes].active
-		};
+		// Check if the clicked tab is already active
+		const isTabActive = updatedNotes[tabKey as keyof typeof notes].active;
+
+		// Update the active property for the clicked tab only if it's not already active
+		if (!isTabActive) {
+			updatedNotes[tabKey as keyof typeof notes] = {
+				...updatedNotes[tabKey as keyof typeof notes],
+				active: true
+			};
+		}
 
 		// Set active property to false for all other tabs
 		Object.keys(updatedNotes).forEach((otherTabKey) => {
@@ -68,38 +73,53 @@
 				{key}
 			</button>
 		{/each}
-		{#each Object.entries(notes) as [_, value]}
-			{#if value.active}
-				<section>
+		<!-- <div class="seperator" /> -->
+		<ul>
+			{#each Object.entries(notes) as [_, value]}
+				{#if value.active}
 					{#each value.entries as note}
-						{note.title}
+						<li>
+							<a href={note.href} target="_blank">
+								<div class="title-container">
+									<span class="title">{note.title}</span>
+									<!-- <p>{note.desc}</p> -->
+									<span class="tags">#{note.tags}</span>
+								</div>
+								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+									><path
+										fill="#676765"
+										d="M14 3v2h3.59l-9.83 9.83l1.41 1.41L19 6.41V10h2V3m-2 16H5V5h7V3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7h-2v7Z"
+									/></svg
+								>
+							</a>
+						</li>
 					{/each}
-				</section>
-			{/if}
-		{/each}
+				{/if}
+			{/each}
+		</ul>
 	</section>
-	<ul>
-		<!-- {#each notes as note} -->
-		<!-- 	<li> -->
-		<!-- 		<a href={note.href} target="_blank"> -->
-		<!-- 			<div class="title-container"> -->
-		<!-- 				<span class="title">{note.title}</span> -->
-		<!-- 				<!-- <p>{note.desc}</p> --> -->
-		<!-- 				<span class="tags">#{note.tags}</span> -->
-		<!-- 			</div> -->
-		<!-- 			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" -->
-		<!-- 				><path -->
-		<!-- 					fill="#676765" -->
-		<!-- 					d="M14 3v2h3.59l-9.83 9.83l1.41 1.41L19 6.41V10h2V3m-2 16H5V5h7V3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7h-2v7Z" -->
-		<!-- 				/></svg -->
-		<!-- 			> -->
-		<!-- 		</a> -->
-		<!-- 	</li> -->
-		<!-- {/each} -->
-	</ul>
 </div>
 
 <style>
+	button {
+		font-size: 1rem;
+		background: transparent;
+		color: var(--color-primary-100);
+		padding: 0.5rem;
+		border: none;
+		cursor: pointer;
+	}
+
+	button.active {
+		color: var(--color-primary);
+		text-decoration: underline;
+	}
+
+	.seperator {
+		height: 2px;
+		background-color: var(--color-text);
+	}
+
 	ul {
 		display: flex;
 		flex-direction: column;
