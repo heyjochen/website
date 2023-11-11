@@ -27,6 +27,11 @@
 					title: 'Culture of Excellence',
 					tags: ['best_practices'],
 					href: 'https://notes.stierberger.com/20-29-software-engineering/20-personal-development/20-02-blogs/culture-of-excellence/'
+				},
+				{
+					title: 'How to do great Code Reviews?',
+					tags: ['best_practices'],
+					href: 'https://notes.stierberger.com/20-29-software-engineering/20-personal-development/20-02-blogs/how-to-do-great-code-reviews/'
 				}
 			]
 		}
