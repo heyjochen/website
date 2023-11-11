@@ -73,7 +73,6 @@
 				{key}
 			</button>
 		{/each}
-		<!-- <div class="seperator" /> -->
 		<ul>
 			{#each Object.entries(notes) as [_, value]}
 				{#if value.active}
@@ -87,7 +86,7 @@
 								</div>
 								<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
 									><path
-										fill="#676765"
+										fill="#a4a4a2"
 										d="M14 3v2h3.59l-9.83 9.83l1.41 1.41L19 6.41V10h2V3m-2 16H5V5h7V3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7h-2v7Z"
 									/></svg
 								>
@@ -105,19 +104,19 @@
 		font-size: 1rem;
 		background: transparent;
 		color: var(--color-primary-100);
-		padding: 0.5rem;
 		border: none;
+		margin-right: 1rem;
 		cursor: pointer;
+		padding: 0;
+	}
+
+	button:hover {
+		text-decoration: underline;
 	}
 
 	button.active {
 		color: var(--color-primary);
 		text-decoration: underline;
-	}
-
-	.seperator {
-		height: 2px;
-		background-color: var(--color-text);
 	}
 
 	ul {
