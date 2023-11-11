@@ -30,7 +30,7 @@
 				},
 				{
 					title: 'How to do great Code Reviews?',
-					tags: ['best_practices'],
+					tags: ['improvement'],
 					href: 'https://notes.stierberger.com/20-29-software-engineering/20-personal-development/20-02-blogs/how-to-do-great-code-reviews/'
 				}
 			]
