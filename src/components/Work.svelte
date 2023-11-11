@@ -19,7 +19,7 @@
 					end: 'Nov 2023',
 					task: [
 						'I designed and implemented an internal tool that automated a tedious manual process, enhancing the developer experience and delivering cost and effort savings.',
-						'Refactored components, removed lines of code, and fine-tuned data fetching for efficiency.'
+						'I refactored components, removed lines of code, and fine-tuned data fetching for efficiency.'
 					]
 				}
 			]
