@@ -39,7 +39,7 @@
 			{/each}
 		</div>
 		<!-- Calendly link widget begin -->
-		<button class="calendly" on:click={showWidget}>
+		<button class="calendly" aria-label="Calendly scheduling button" on:click={showWidget}>
 			<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 256 256"
 				><path
 					fill="currentColor"
