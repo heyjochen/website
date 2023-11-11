@@ -62,7 +62,7 @@
 
 <div>
 	<h2>Notes</h2>
-	<p>
+	<p class="intro">
 		I invest a significant portion of my time in staying updated on the latest trends in Software
 		Engineering, and have developed a workflow to summarize articles and posts. I'm excited to share
 		some of my favorite findings with you:
@@ -100,6 +100,10 @@
 </div>
 
 <style>
+	.intro {
+		max-width: 40rem;
+	}
+
 	button {
 		font-size: 1rem;
 		background: transparent;
