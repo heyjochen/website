@@ -175,4 +175,10 @@
 	.tags {
 		color: var(--color-primary-200);
 	}
+
+	@media (max-width: 480px) {
+		.title {
+			max-width: 17rem;
+		}
+	}
 </style>
