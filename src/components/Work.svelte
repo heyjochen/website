@@ -8,13 +8,19 @@
 					name: 'Software Engineer',
 					start: 'Nov 2023',
 					end: 'present',
-					task: 'My team develops an IoT platform that integrates 24/7 monitoring and real-time alerts, empowering our customers to optimize their operational uptime. Expertise in TypeScript/JavaScript, and can navigate different languages and technology stacks.'
+					task: [
+						'My team develops an IoT platform that integrates 24/7 monitoring and real-time alerts, empowering our customers to optimize their operational uptime.',
+						'I have expertise in TypeScript/JavaScript and can navigate different languages and technology stacks.'
+					]
 				},
 				{
 					name: 'Software Developer',
 					start: 'Oct 2022',
 					end: 'Nov 2023',
-					task: 'I designed and implemented an internal tool that automated a tedious manual process, enhancing the developer experience and delivering cost and effort savings.'
+					task: [
+						'I designed and implemented an internal tool that automated a tedious manual process, enhancing the developer experience and delivering cost and effort savings.',
+						'Refactored components, removed lines of code, and fine-tuned data fetching for efficiency.'
+					]
 				}
 			]
 		},
@@ -26,7 +32,9 @@
 					name: 'Software Engineer',
 					start: 'Jan 2022',
 					end: 'Oct 2022',
-					task: 'I developed applications for small local businesses, collaborated with designers and offered valuable tradeoff suggestions to business stakeholders when necessary.'
+					task: [
+						'I developed applications for small local businesses, collaborated with designers and offered valuable tradeoff suggestions to business stakeholders when necessary.'
+					]
 				}
 			]
 		},
@@ -38,7 +46,9 @@
 					name: 'Studio Manager',
 					start: 'Jun 2021',
 					end: 'Jan 2022',
-					task: 'I created high-magnification photographs and 3D models, enhanced fossil preparation as well as specimen research and developed marketing assets across various media channels.'
+					task: [
+						'I created high-magnification photographs and 3D models, enhanced fossil preparation as well as specimen research and developed marketing assets across various media channels.'
+					]
 				}
 			]
 		}
@@ -63,7 +73,13 @@
 								<span class="position-date">{position.start} - {position.end}</span>
 							</div>
 							<ul class="task-list">
-								<li class="task">{position.task}</li>
+								<li class="task-item">
+									{#each position.task as task}
+										<p class="task">
+											{task}
+										</p>
+									{/each}
+								</li>
 							</ul>
 						</li>
 					{/each}
@@ -108,11 +124,16 @@
 	/* 	padding-left: 0.5rem; */
 	/* } */
 
-	.task {
+	.task-item {
 		list-style-type: none;
 		padding: 0;
-		line-height: 1.25;
 		margin: 0.25rem 0;
+	}
+
+	.task {
+		max-width: 40rem;
+		margin: 0.25rem;
+		line-height: 1.25;
 		color: var(--color-primary-300);
 	}
 </style>
