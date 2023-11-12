@@ -68,7 +68,7 @@
 		left: 0;
 		right: 0;
 		width: 100%;
-		height: 600px;
+		height: 800px;
 		background-position: top;
 		background-size: cover;
 		background-image: radial-gradient(
@@ -77,7 +77,7 @@
 			#4d586a 0,
 			rgba(15, 23, 42, 0) 100%
 		);
-		opacity: 0.25;
+		opacity: 0.3;
 		z-index: -1;
 		border-radius: inherit;
 	}
