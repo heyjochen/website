@@ -22,13 +22,13 @@
 	<!-- </nav> -->
 	<h1>hey, I'm Jochen.</h1>
 	<p>
-		I'm a Software Engineer at nvisia, where I build cutting-edge IoT applications, prioritizing
-		quality and performance of the products shipped.<br />
+		I'm a Software Engineer at nvisia, where I build cutting-edge applications, prioritizing quality
+		and performance of the products shipped.<br />
 	</p>
-	<p>
-		I had the privilege of working on three different continents.<br /> I love pizza, tinkering with
-		recipes and shooting large-format photographs on film.
-	</p>
+	<!-- <p> -->
+	<!-- 	I had the privilege of working on three different continents.<br /> I love pizza, tinkering with -->
+	<!-- 	recipes and shooting large-format photographs on film. -->
+	<!-- </p> -->
 </header>
 
 <style>
