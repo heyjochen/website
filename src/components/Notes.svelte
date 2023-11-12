@@ -70,7 +70,7 @@
 	<p class="intro">
 		I invest a significant portion of my time in staying updated on the latest trends in Software
 		Engineering, and have developed a workflow to summarize articles and posts. I'm excited to share
-		some of my favorite findings with you:
+		some of my favorites with you:
 	</p>
 	<section>
 		{#each Object.entries(notes) as [key, value]}
