@@ -68,7 +68,7 @@
 						<li class="position">
 							<div class="title-container">
 								<h4 class="position-name">
-									{position.name} • {employer.location}
+									{position.name}
 								</h4>
 								<span class="position-date">{position.start} - {position.end}</span>
 							</div>
@@ -116,6 +116,7 @@
 	}
 
 	.position-date {
+		font-size: 0.9rem;
 		align-self: flex-end;
 		color: var(--color-primary-100);
 	}
