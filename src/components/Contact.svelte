@@ -7,18 +7,18 @@
 		},
 		{
 			name: 'LinkedIn',
-			title: '@jochenstierberger',
-			href: 'https://www.linkedin.com/in/jochenstierberger/'
+			title: '@strbrgr',
+			href: 'https://www.linkedin.com/in/strbrgr/'
 		},
 		{
 			name: 'GitHub',
-			title: '@heyjochen',
-			href: 'https://github.com/heyjochen'
+			title: '@strbrgr',
+			href: 'https://github.com/strbrgr'
 		}
 	];
 
 	function showWidget() {
-		Calendly.initPopupWidget({ url: 'https://calendly.com/heyjochen/meet' });
+		Calendly.initPopupWidget({ url: 'https://calendly.com/strbrgr/meet' });
 	}
 </script>
 
