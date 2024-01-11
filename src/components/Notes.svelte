@@ -9,15 +9,15 @@
 					href: 'https://notes.stierberger.com/20-29-software-engineering/20-personal-development/20-01-books/on-writing-well/'
 				},
 				{
+					title: "So good they can't ignore you",
+					tags: ['improvement'],
+					href: 'https://notes.stierberger.com/10-19-personal/10-personal-development/10-01-books/so-good-they-can-t-ignore-you/'
+				},
+				{
 					title: 'Deep Work',
 					tags: ['improvement'],
 					href: 'https://notes.stierberger.com/10-19-personal/10-personal-development/10-01-books/deep-work/'
 				},
-				{
-					title: "So good they can't ignore you",
-					tags: ['improvement'],
-					href: 'https://notes.stierberger.com/10-19-personal/10-personal-development/10-01-books/so-good-they-can-t-ignore-you/'
-				}
 			]
 		},
 		Blogs: {
