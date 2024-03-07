@@ -23,12 +23,8 @@
 	<h1>hey, I'm Jochen.</h1>
 	<p>
 		I'm a Software Engineer at nvisia, where I build cutting-edge applications, prioritizing quality
-		and performance of the products shipped.<br />
+		and performance of the products shipped.
 	</p>
-	<!-- <p> -->
-	<!-- 	I had the privilege of working on three different continents.<br /> I love pizza, tinkering with -->
-	<!-- 	recipes and shooting large-format photographs on film. -->
-	<!-- </p> -->
 </header>
 
 <style>
