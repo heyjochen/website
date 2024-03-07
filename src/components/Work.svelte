@@ -43,7 +43,7 @@
 			location: 'Chicago, IL',
 			position: [
 				{
-					name: 'Studio Manager',
+					name: 'Research Associate',
 					start: 'Jun 2021',
 					end: 'Jan 2022',
 					task: [
