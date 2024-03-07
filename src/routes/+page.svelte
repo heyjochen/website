@@ -4,6 +4,9 @@
 	import Work from '../components/Work.svelte';
 	import Notes from '../components/Notes.svelte';
 	import Contact from '../components/Contact.svelte';
+	import Blog from '../components/Blog.svelte';
+
+	export let data;
 </script>
 
 <svelte:head>
@@ -13,20 +16,21 @@
 
 <main>
 	<Header />
-	<!-- Work -->
 	<section>
 		<Work />
 	</section>
 
-	<!-- Notes -->
 	<section>
 		<Notes />
 	</section>
 
-	<!-- Contact -->
 	<section>
 		<Contact />
 	</section>
+
+	<!-- <section> -->
+	<!-- 	<Blog {data} /> -->
+	<!-- </section> -->
 </main>
 
 <style>
